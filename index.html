@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/f7d5949a35.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.png" type="image/gif">
+    <title>Penguin - Winter Partner</title>
+
+    <!-- Internal CSS Start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .c-yellow {
+            color: #fabe4c;
+        }
+
+        .c-green {
+            background-color: #a4bc46;
+        }
+
+        .f-img {
+            width: 68px;
+            height: 72px;
+        }
+
+        .checked {
+            color: #a4bc46;
+        }
+
+        .c-width {
+            width: 90px;
+        }
+
+        .c-time {
+            margin: 0 0 4px 0;
+        }
+
+        .c-margin {
+            margin-left: 15px;
+        }
+
+        .c-br {
+            border-radius: 100px 0 0 100px;
+        }
+    </style>
+    <!-- Internal CSS End -->
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar Section Start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container d-flex justify-content-between p-2">
+                <div>
+                    <a href="index.html"><img src="images/logo.png" alt="Logo" width="300px" height="40px"></a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#product">Product</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#about-us">About Us</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar Section End -->
+
+        <!-- Carousel Section Start -->
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
+                    <div>
+                        <h1 style="font-size:50px;"><span class="c-yellow">BE THE PENGUINS</span>
+                            <br>OF WINTER
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deserunt consequatur
+                            quas
+                            mollitia obcaecati laboriosam recusandae provident unde odio.</p>
+                        <a href="#product" class="btn c-green"><img src="images/shopping-cart 1.png" width="28px"> Buy
+                            Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/model-1.png" class="d-block" alt="Image" style="height:450px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/model-2.jpg" class="d-block" alt="Image" style="height:450px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Section End -->
+    </header>
+
+    <main>
+        <!-- Offer Banner Section Start -->
+        <div class="container py-5">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h1 class="card-title">30% Sales on Jackets!</h1>
+                    <hr>
+                    <p class="card-text px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi suscipit
+                        ipsum odit quas pariatur quisquam expedita possimus labore modi magnam. Quis esse, beatae aut
+                        corporis nesciunt iusto adipisci corrupti unde?</p>
+                    <a href="#product" class="btn c-green">See Products</a>
+                </div>
+                <div class="card-footer text-muted">
+                    FROM 25/10/2021 TO 05/11/2021
+                </div>
+            </div>
+        </div>
+        <!-- Offer Banner Section End -->
+
+        <!-- Product Section Start -->
+        <div class="container mb-5" id="product">
+            <div class="row gy-4">
+                <div class="col-sm-4 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top c-img" src="images/jacket-1.png" alt="Jacket">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <h2 class="c-yellow ms-4">$380</h2>
+                                <a href="#" class="btn c-green"><img src="images/shopping-cart 1.png" width="28px"> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top c-img" src="images/jacket-2.png" alt="Jacket">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <h2 class="c-yellow ms-4">$380</h2>
+                                <a href="#" class="btn c-green"><img src="images/shopping-cart 1.png" width="28px"> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/jacket-3.png" alt="Jacket">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <h2 class="c-yellow ms-4">$380</h2>
+                                <a href="#" class="btn c-green"><img src="images/shopping-cart 1.png" width="28px"> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top c-img" src="images/jacket-4.png" alt="Jacket">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <h2 class="c-yellow ms-4">$380</h2>
+                                <a href="#" class="btn c-green"><img src="images/shopping-cart 1.png" width="28px"> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top c-img" src="images/jacket-5.png" alt="Jacket">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <h2 class="c-yellow ms-4">$380</h2>
+                                <a href="#" class="btn c-green"><img src="images/shopping-cart 1.png" width="28px"> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <img class="card-img-top c-img" src="images/jacket-6.png" alt="Jacket">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <h2 class="c-yellow ms-4">$380</h2>
+                                <a href="#" class="btn c-green"><img src="images/shopping-cart 1.png" width="28px"> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product Section End -->
+
+        <!-- Features Section Start -->
+        <div class="container d-flex justify-content-center align-items-center my-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 my-2">
+                    <div class="d-flex justify-content-center f-wrapper">
+                        <div class="me-4 mt-2">
+                            <img src="images/icon-1.png" alt="Icon" class="f-img">
+                        </div>
+                        <div>
+                            <h4>Find the Perfect Fit</h4>
+                            <p>Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center f-wrapper my-4">
+                        <div class="me-4 mt-2">
+                            <img src="images/icon-2.png" alt="Icon" class="f-img">
+                        </div>
+                        <div>
+                            <h4>Find the Perfect Fit</h4>
+                            <p>Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center f-wrapper">
+                        <div class="me-4 mt-2">
+                            <img src="images/icon-3.png" alt="Icon" class="f-img">
+                        </div>
+                        <div>
+                            <h4>Find the Perfect Fit</h4>
+                            <p>Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="images/shopping.png" alt="Shopping" width="99%">
+                </div>
+            </div>
+
+        </div>
+        <!-- Features Section End -->
+
+        <!-- Review Section Start -->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 pt-3 pb-5">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item c-green c-br active">
+                                <div class="d-flex mt-3">
+                                    <div class="me-4">
+                                        <img src="images/profile1.png" alt="Profile" class="c-width c-margin">
+                                    </div>
+                                    <div class="me-1">
+                                        <h4>Ronie D'souza</h4>
+                                        <p>Such a good store, Everything in a reasonable price.</p>
+                                        <p class="text-muted float-end c-time">July, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item c-green c-br">
+                                <div class="d-flex mt-3">
+                                    <div class="me-4">
+                                        <img src="images/profile2.png" alt="Profile" class="c-width c-margin">
+                                    </div>
+                                    <div>
+                                        <h4>Ron Doe</h4>
+                                        <p>Such a good store, Everything in a reasonable price.</p>
+                                        <p class="text-muted float-end c-time">October, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item c-green c-br">
+                                <div class="d-flex mt-3">
+                                    <div class="me-4">
+                                        <img src="images/profile3.png" alt="Profile" class="c-width c-margin">
+                                    </div>
+                                    <div>
+                                        <h4>Alex Martin</h4>
+                                        <p>Such a good store, Everything in a reasonable price.</p>
+                                        <p class="text-muted float-end c-time">January, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 pt-3 pb-5 d-flex align-items-center">
+                    <div class="">
+                        <img src="images/qr-code.png" alt="QR Code" style="width: 160px;">
+                    </div>
+                    <div class="ps-2">
+                        <img src="images/favicon.png" alt="favicon" style="width:80px;">
+                        <p class="fs-5">Enjoy Our Android App <a href="#" class="text-decoration-none text-success">Download Now</a></p>
+                    </div>
+                    <div class="ps-4">
+                        <h4>Verified By</h4>
+                        <img src="images/verified.png" alt="Verified" style="width: 160px;">
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-12 d-flex flex-column justify-content-center align-items-center pt-3 pb-5">
+                    <h3>Trusted By Millions of Customer</h3>
+                    <div class="fs-3">
+                        <i class="fas fa-star c-yellow"></i>
+                        <i class="fas fa-star c-yellow"></i>
+                        <i class="fas fa-star c-yellow"></i>
+                        <i class="fas fa-star c-yellow"></i>
+                        <i class="fas fa-star c-yellow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Review Section End -->
+    </main>
+
+
+    <!-- Bootstrap JS Bundle Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
