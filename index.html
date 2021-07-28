@@ -35,7 +35,7 @@
         }
 
         .checked {
-            color: #a4bc46;
+            color: #fabe4c;
         }
 
         .c-width {
@@ -53,6 +53,18 @@
         .c-br {
             border-radius: 100px 0 0 100px;
         }
+
+        .ms-n1 {
+            margin-left: -6.1rem;
+        }
+
+        .c-btn {
+            outline: 0;
+        }
+        .card:hover .c-zoom{
+            transform: scale(0.9);
+            transition: 2s ease-in-out;
+        }
     </style>
     <!-- Internal CSS End -->
 </head>
@@ -61,7 +73,7 @@
 
     <header>
         <!-- Navbar Section Start -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container d-flex justify-content-between p-2">
                 <div>
                     <a href="index.html"><img src="images/logo.png" alt="Logo" width="300px" height="40px"></a>
@@ -94,7 +106,7 @@
         <!-- Navbar Section End -->
 
         <!-- Carousel Section Start -->
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center my-5 py-5">
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
                     <div>
@@ -149,7 +161,7 @@
             <div class="row gy-4">
                 <div class="col-sm-4 col-md-6 col-lg-4">
                     <div class="card">
-                        <img class="card-img-top c-img" src="images/jacket-1.png" alt="Jacket">
+                        <img class="card-img-top c-zoom" src="images/jacket-1.png" alt="Jacket">
                         <div class="card-body">
                             <h5 class="card-title">Special title treatment</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
@@ -164,7 +176,7 @@
                 </div>
                 <div class="col-sm-4 col-md-6 col-lg-4">
                     <div class="card">
-                        <img class="card-img-top c-img" src="images/jacket-2.png" alt="Jacket">
+                        <img class="card-img-top c-zoom" src="images/jacket-2.png" alt="Jacket">
                         <div class="card-body">
                             <h5 class="card-title">Special title treatment</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
@@ -179,7 +191,7 @@
                 </div>
                 <div class="col-sm-4 col-md-6 col-lg-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/jacket-3.png" alt="Jacket">
+                        <img class="card-img-top c-zoom" src="images/jacket-3.png" alt="Jacket">
                         <div class="card-body">
                             <h5 class="card-title">Special title treatment</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
@@ -194,7 +206,7 @@
                 </div>
                 <div class="col-sm-4 col-md-6 col-lg-4">
                     <div class="card">
-                        <img class="card-img-top c-img" src="images/jacket-4.png" alt="Jacket">
+                        <img class="card-img-top c-zoom" src="images/jacket-4.png" alt="Jacket">
                         <div class="card-body">
                             <h5 class="card-title">Special title treatment</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
@@ -209,7 +221,7 @@
                 </div>
                 <div class="col-sm-4 col-md-6 col-lg-4">
                     <div class="card">
-                        <img class="card-img-top c-img" src="images/jacket-5.png" alt="Jacket">
+                        <img class="card-img-top c-zoom" src="images/jacket-5.png" alt="Jacket">
                         <div class="card-body">
                             <h5 class="card-title">Special title treatment</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
@@ -224,7 +236,7 @@
                 </div>
                 <div class="col-sm-4 col-md-6 col-lg-4 mb-5">
                     <div class="card">
-                        <img class="card-img-top c-img" src="images/jacket-6.png" alt="Jacket">
+                        <img class="card-img-top c-zoom" src="images/jacket-6.png" alt="Jacket">
                         <div class="card-body">
                             <h5 class="card-title">Special title treatment</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
@@ -330,7 +342,7 @@
                     <div class="">
                         <img src="images/qr-code.png" alt="QR Code" style="width: 160px;">
                     </div>
-                    <div class="ps-2">
+                    <div class="ps-2 pt-4">
                         <img src="images/favicon.png" alt="favicon" style="width:80px;">
                         <p class="fs-5">Enjoy Our Android App <a href="#" class="text-decoration-none text-success">Download Now</a></p>
                     </div>
@@ -340,7 +352,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-12 d-flex flex-column justify-content-center align-items-center pt-3 pb-5">
+                <div class="col-12 col-lg-12 d-flex flex-column justify-content-center align-items-center pt-3 pb-4">
                     <h3>Trusted By Millions of Customer</h3>
                     <div class="fs-3">
                         <i class="fas fa-star c-yellow"></i>
@@ -354,6 +366,36 @@
         </div>
         <!-- Review Section End -->
     </main>
+
+    <footer class="text-center">
+        <!-- Contact Section Start -->
+        <section class="container c-green mb-5">
+            <div class="p-5 pb-4">
+                <h2>Subscribe our Newsletter for latest updates!</h2>
+                <form class="d-flex justify-content-center mt-4">
+                    <input class="w-75 p-2 form-control" type="email" aria-label="Email" id="exampleFormControlInput1" placeholder="Enter Your Email" >
+                    <button class="btn c-btn ms-n1" type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="col-12 col-lg-12 d-flex flex-column justify-content-center align-items-center pb-4">
+                <div class="fs-2">
+                    <a href="https://www.facebook.com/hosseniftakher" class="text-white text-decoration-none"><i class="fab fa-facebook mx-1"></i></a>
+                    <a href="https://www.instagram.com/hossen_iftakher/" class="text-white text-decoration-none"><i class="fab fa-instagram mx-1"></i></a>
+                    <a href="https://twitter.com/iftakher_hossen" class="text-white text-decoration-none"><i class="fab fa-twitter mx-1"></i></a>
+                    <a href="https://www.linkedin.com/in/iftakher-hossen/" class="text-white text-decoration-none"><i class="fab fa-linkedin-in mx-1"></i></a>
+                    <a href="mailto:iftakher.one@gmail.com" class="text-white text-decoration-none"><i class="far fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End -->
+
+        <!-- Footer Section Start -->
+        <div>
+            <p>©2021, Penguin, All rights reserved, <a class="text-decoration-none text-success" href="https://iftakherhossen.github.io/portfolio/index.html">Iftakher Hossen</a>, Bangladesh.</p>
+        </div>
+        <!-- Footer Section End -->
+    </footer>
 
 
     <!-- Bootstrap JS Bundle Link -->
